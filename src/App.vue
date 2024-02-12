@@ -51,7 +51,6 @@ export default {
         ["", "", ""],
         ["", "", ""],
       ];
-      this.$forceUpdate();
     },
     checkWinner(board, player) {
       console.log("checkWinner ", board, player);
@@ -129,7 +128,6 @@ export default {
           : (this.currentPlayer = "X");
           }
       }
-      this.$forceUpdate();
     },
   },
 };
